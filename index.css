@@ -31,7 +31,7 @@ max-width: 600px;
 .link{
     background-color: transparent;
     font-size: 16px;
-    padding: 10px;
+    padding: 15px;
     display: block;
     margin-left:10px ;
     margin-right: 10px;
@@ -39,20 +39,23 @@ max-width: 600px;
     border-width: 2px;
     border-style: solid;
     border-color:rgb(244, 242, 242);
-    border-radius: 4px;
+    border-radius: 12px;
     color:white;
     text-align: center;
     text-decoration: none;
     font-family: Roboto;
+    transition:  background-color 0.5s;
+    cursor: pointer;
 }
 body{
-    background-color: black;
+    background-color: #0B1215;
 }
 
 .link:hover{
-    opacity: 0.8;
-}
-.link:active{
+    
     background-color: white;
     color: black;
+}
+.link:active{
+    opacity: 0.5;
 }
